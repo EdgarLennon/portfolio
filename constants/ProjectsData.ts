@@ -31,7 +31,7 @@ export const ProjectsData: ProjectTypes[] = [
       "Nestjs",
       "PostgreSQL",
     ],
-    image: "/projects/factucash.svg",
+    image: "projects/factucash.svg",
     webLink: "https://facturacion.rednuevaconexion.net/login",
     button: {
       es: "Ir a la página",
@@ -62,7 +62,7 @@ export const ProjectsData: ProjectTypes[] = [
       "Nestjs",
       "PostgreSQL",
     ],
-    image: "/projects/isp.svg",
+    image: "projects/isp.svg",
     webLink: "https://isp.rednuevaconexion.net/login",
     button: {
       es: "Ir a la página",
@@ -94,7 +94,7 @@ export const ProjectsData: ProjectTypes[] = [
       "PostgreSQL",
       "Tanstack Query",
     ],
-    image: "/projects/centinela.svg",
+    image: "projects/centinela.svg",
     webLink: "https://centinela.inter-ecuador.com/",
     button: {
       es: "Ir a la página",

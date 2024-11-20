@@ -33,7 +33,7 @@ export default function ProjectCard({
   textButton,
 }: ProjectCardProps) {
   return (
-    <Card className="flex flex-col ">
+    <Card className="flex flex-col">
       <CardHeader>
         <AspectRatio className="relative" ratio={16 / 9}>
           <Image src={image} alt="img" fill />
@@ -47,7 +47,7 @@ export default function ProjectCard({
       <CardContent>
         <CardDescription className="leading-6">
           <BoxReveal>
-            <span className="text-gray-500">{description}</span>
+            <div className="text-gray-500">{description}</div>
           </BoxReveal>
         </CardDescription>
         <div className="flex flex-wrap w-full text-gray-500">

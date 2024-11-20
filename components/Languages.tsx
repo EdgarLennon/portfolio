@@ -8,14 +8,14 @@ import { I18Context } from "@/providers/LanguageProvider";
 import { useContext } from "react";
 
 const upImages = [
-  "/css.svg",
-  "/nestjs.svg",
-  "/nextjs.svg",
-  "/nodejs.svg",
-  "/postgresql.svg",
-  "/react.svg",
-  "/figma.svg",
-  "/html.svg",
+  "css.svg",
+  "nestjs.svg",
+  "nextjs.svg",
+  "nodejs.svg",
+  "postgresql.svg",
+  "react.svg",
+  "figma.svg",
+  "html.svg",
 ];
 
 const firstRow = upImages.slice(0, upImages.length / 2);
@@ -29,7 +29,7 @@ const ImageCard = ({ image, alt }: { image: string; alt: string }) => {
       )}
     >
       <div className="relative w-24 h-24">
-        <Image src={image} fill objectFit="contain" alt={alt || "Image"} />
+        <Image src={image} fill alt={alt || "Image"} />
       </div>
     </figure>
   );
