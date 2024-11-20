@@ -18,7 +18,7 @@ export default function Hero() {
             className="rounded-full"
             width={150}
             height={150}
-            src="/profile_photo.webp"
+            src={"/profile_photo.webp"}
             alt="Ken"
           />
         </BoxReveal>
@@ -32,9 +32,7 @@ export default function Hero() {
             </h1>
           </BoxReveal>
           <BoxReveal>
-            <p className="text-gray-500">
-              {context?.t.translate("subtitle")}
-            </p>
+            <p className="text-gray-500">{context?.t.translate("subtitle")}</p>
           </BoxReveal>
         </div>
         <div className="flex justify-center gap-4">
