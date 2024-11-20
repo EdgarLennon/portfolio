@@ -18,7 +18,7 @@ export default function Hero() {
             className="rounded-full"
             width={150}
             height={150}
-            src={"/profile_photo.webp"}
+            src={"me/me.svg"}
             alt="Ken"
           />
         </BoxReveal>
