@@ -6,10 +6,12 @@ import About from "../components/About";
 import Projects from "../components/Projects";
 import LanguageToogle from "../components/common/LanguageToogle";
 import Contact from "@/components/Contact";
+import Meteors from "@/components/magicui/meteors";
 
 export default function Home() {
   return (
-    <main className="flex flex-col w-full items-center p-2">
+    <main className="flex flex-col w-full items-center p-2 relative">
+      <Meteors number={30} />
       <LanguageToogle />
       <Hero />
       <About />
