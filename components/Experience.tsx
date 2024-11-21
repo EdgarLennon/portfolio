@@ -9,13 +9,13 @@ const enterprises = [
   {
     id: 1,
     name: "Red Nueva Conexión",
-    image: "/companies/rnc.svg",
+    image: "companies/rnc.svg",
     duration: "Junio 2023 - Julio 2024",
   },
   {
     id: 2,
     name: "Inigualitysoft",
-    image: "/companies/ini.svg",
+    image: "companies/ini.svg",
     duration: "Agosto 2024 - Actualidad",
   },
 ];

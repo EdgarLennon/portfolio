@@ -68,6 +68,9 @@
   }
 }
 
-html {
+html,
+body {
   font-family: var(--font-poppins), sans-serif;
+  height: max-content;
+  padding: 0 0 3rem 0;
 }
